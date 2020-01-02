@@ -12,7 +12,7 @@ function sum (...args){
     // console.log(args)
     var total;
     total = args.reduce((acc, elem) => acc + elem, 0)
-    console.log(total);
+    // console.log(total);
 }
 
 sum(1, 3);
