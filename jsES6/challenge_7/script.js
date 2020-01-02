@@ -10,8 +10,8 @@ in the multiplyBy() function.
 
 "use strict";
 
-function multiplyBy(a, mult) {
-  mult = mult !== undefined ? mult : 2;
+function multiplyBy(a, mult = 2) {
+  // mult = mult !== undefined ? mult : 2;
   console.log(a * mult);
 }
 
