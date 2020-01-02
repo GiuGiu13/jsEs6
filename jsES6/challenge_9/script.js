@@ -14,5 +14,14 @@ var obj = {
 
 // Write mult() function here
 
+// function mult(object){
+//   var { x, y, z } = object;
+//   return x * y * z
+// }
+//or 
+
+function mult({x, y, z}){
+  return x * y * z
+}
 console.log(mult(obj));
 // 300
