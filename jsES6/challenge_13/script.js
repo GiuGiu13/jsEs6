@@ -15,6 +15,16 @@ var cars = [
 ];
 
 // Write carInfo() function here
+  function carInfo(car){
+    // var s;
+    // if(car.price <= 20000) s = "cheap"
+    // else s = "expensive"
+    // s = car.price <= 20000 ? "cheap" : "expensive";
+
+    return `Price of my new ${car.brand} \
+is ${car.price}$ and it is \
+${car.price <= 20000 ? "cheap" : "expensive"} car. `
+  }
 
 cars.forEach(car => console.log(carInfo(car)));
 /* Price of my new Honda is 13000$
