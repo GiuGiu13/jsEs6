@@ -21,7 +21,7 @@ var str = "Today is best day of my life";
 //or
 
 // this cannot be used because it's a string and not an array
-// str.forEach( s => console.log(s));
+           // str.forEach( s => console.log(s));
 
 //or
 for(let s of str){
