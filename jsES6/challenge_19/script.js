@@ -15,6 +15,15 @@ var nums = {
 };
 
 // Write code here
+function sumObjectValues(object){
+  var total = 0;
+  for(let k in object){
+    // console.log(k)
+    // console.log(object[k])
+    if( typeof object[k] === "number" && object.hasOwnProperty(k)) total += object[k]
+  }
+  return total;
+}
 
 console.log(sumObjectValues(nums));
 //42
